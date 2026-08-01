@@ -14,7 +14,7 @@ Three-layer memory hierarchy, running invisibly alongside your normal work:
 | **L2 Reflector** | Groups observations into patterns, promotes stable ones to axioms | Session start (when 15+ observations accumulate) |
 | **L3 Axiom** | Maintains a lean profile of ≤25 reusable preferences loaded every session | During reflection |
 
-Most tasks produce **zero** observations. The skill only records when you express a real preference signal.
+Most tasks produce **zero** observations. The skill only records when you express a real preference signal — with one documented exception: the first two sessions run in *bootstrap mode*, which also notes what you accept without comment, so the profile isn't empty for weeks (see [EVALS.md](EVALS.md)).
 
 ## What gets learned
 
@@ -66,7 +66,7 @@ memory/context-infra/
 - **Self-maintaining** — axioms strengthen, weaken, merge, and go dormant over time
 - **User-controlled** — say "forget that preference" and it's retracted immediately
 
-Built through 35 rounds of iterative design optimization ([autoresearch method](https://github.com/karpathy/autoresearch)).
+Built through 35 rounds of iterative design optimization ([autoresearch method](https://github.com/karpathy/autoresearch)) — the rubric, round-by-round log, and score progression are in [EVALS.md](EVALS.md).
 
 Inspired by [Context Infrastructure](https://yage.ai/context-infrastructure.html) by grapeot.
 
